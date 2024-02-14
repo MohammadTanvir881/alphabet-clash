@@ -10,6 +10,7 @@ function keyBoardButtonIsPressed(event){
    if ( playerPressed === 'Escape'){
      gameOver()
    }
+ 
   // console.log('player pressed :' , playerPressed)
 
   const expectedKeyToPress = document.getElementById('current-alphabet')
