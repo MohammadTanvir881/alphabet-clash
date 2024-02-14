@@ -7,6 +7,9 @@ function showElementById(elementId){
   element.classList.remove('hidden')
 }
 
+
+
+
 function getRandomAlphabet(){
    const alphabetString = 'abcdefghijklmnopqrstuvwxyx';
    const alphabets = alphabetString.split('');
@@ -24,5 +27,9 @@ return alphabet
 function setBackgroundColorById(elementId){
     const element = document.getElementById(elementId);
     element.classList.add('bg-orange-400');
+}
+function removeBackgroundColorById(elementId){
+  const element = document.getElementById(elementId);
+  element.classList.remove('bg-orange-400')
 }
 
